@@ -7,7 +7,7 @@ let quantNotas = parseInt(entrada1);//força a entrada e coversão do numero em 
 console.log(quantNotas);
 
 for(i=0; i<quantNotas; i++){
-    let entrada2 = prompt("Insira a nota");
+    let entrada2 = prompt("Insira uma nota");
     console.log(entrada2);
 
     let notas = parseInt(entrada2);
@@ -16,6 +16,6 @@ for(i=0; i<quantNotas; i++){
 
 let media = totalNotas/quantNotas;
 
-prompt("Sua média é: ", media);
+alert("Sua média é: " + media);
 
 console.log(media);
